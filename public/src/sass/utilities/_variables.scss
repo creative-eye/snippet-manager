@@ -1,0 +1,43 @@
+/**
+ * Boilerplate vars
+ */
+$brand-primary:         #5ab05f;
+$brand-logo-bg:         #cc0000;
+$brand-info:            #23b7e5;
+$brand-success:         #27c24c;
+$brand-success-minor:   #4ea353;
+$brand-warning:         #fad733;
+$brand-danger:          #f05050;
+$brand-danger-highlight:#fce7d6;
+$brand-light:           #edf1f2;
+$brand-dark:            #23212e;
+$brand-dark-blue:       #075F5C;
+$brand-black:           #1c2b36;
+$brand-darker-gray:     darken($brand-light, 12%);
+$brand-lighter-dark:    lighten($brand-dark, 5%);
+
+$body-bg:               lighten($brand-light, 1%);
+$text-color:            #58666e;
+$text-muted:            lighten($text-color, 25%);
+
+$font-family-sans-serif:  "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif;
+$font-family-base:        $font-family-sans-serif;
+
+$font-size-base:          14px;
+$font-size-lg:            ceil($font-size-base * 1.23); // ~20px
+$font-size-md:            ceil($font-size-base * 1.14); // ~16px
+$font-size-sm:            ceil($font-size-base * 0.92); // ~13px
+$font-size-xs:            ceil($font-size-base * 0.85); // ~12px
+
+$link-color:              darken($text-color, 15%); // white
+$link-hover-color:        darken($text-color, 30%); // grey
+
+$border-radius-base:      4px;
+$border-color:            darken($brand-light, 5%);
+
+$line-height-base:        1.42857143; // 20/14
+$line-height-computed:    floor($font-size-base * $line-height-base); // ~20px
+$icon-css-prefix:         i;
+
+

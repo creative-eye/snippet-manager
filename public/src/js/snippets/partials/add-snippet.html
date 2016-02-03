@@ -1,0 +1,29 @@
+<div class="sa-one-container-full">
+    <sm-header></sm-header>
+    <h3>Add a code snippet</h3>
+    <div class="sa-form">
+        <form class="sa-form__wrapper" action="" ng-submit="vm.addSnippet($event)" name="snippetSubmitForm">
+            <fieldset class="form-group">
+                <label for="name">Please provide your name</label>
+                <input type="text" id="name" class="form-control"
+                        placeholder="Type your name" required
+                        ng-model="vm.data.snippet.name">
+            </fieldset>
+            <fieldset class="form-group">
+                <label for="description">Please provide description</label>
+                <input type="text" id="description" class="form-control"
+                        placeholder="Type your description" required
+                        ng-model="vm.data.snippet.description">
+            </fieldset>
+            <fieldset class="form-group">
+                <textarea class="sa-form__content" required
+                        ng-model="vm.data.snippet.code">
+                </textarea>
+            </fieldset>
+
+            <button type="submit" class="btn btn-primary">
+                Add Snippet
+            </button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,60 @@
+{
+  "name": "social-media-dashboard",
+  "version": "1.0.0",
+  "description": "Social media dashboard developed as a test for the front end architect position",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "angular": "^1.4.7",
+    "angular-bootstrap-npm": "^0.14.3",
+    "angular-loading-bar": "^0.8.0",
+    "angular-resource": "^1.4.7",
+    "angular-sanitize": "^1.4.7",
+    "angular-ui-bootstrap": "^1.1.1",
+    "angular-ui-router": "^0.2.15",
+    "bootstrap": "^3.3.6",
+    "bootstrap-sass": "^3.3.5",
+    "lodash": "^3.10.1",
+    "store": "^1.3.17"
+  },
+  "devDependencies": {
+    "babelify": "~6.4.0",
+    "body-parser": "~1.14.1",
+    "browserify": "^12.0.1",
+    "browserify-ng-html2js": "^1.1.5",
+    "compression": "~1.6.0",
+    "del": "^2.0.2",
+    "express": "~4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-copy": "0.0.2",
+    "gulp-load-plugins": "^1.0.0",
+    "gulp-ng-constant": "^1.1.0",
+    "gulp-ng-html2js": "^0.2.0",
+    "gulp-nodemon": "^2.0.4",
+    "gulp-prefix": "0.0.14",
+    "gulp-ruby-sass": "^2.0.5",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-strip-debug": "^1.0.2",
+    "gulp-uglify": "^1.4.2",
+    "gulp-util": "^3.0.7",
+    "method-override": "~2.3.5",
+    "morgan": "~1.6.1",
+    "transform": "^1.1.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-paths": "^2.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.6.0",
+    "xtend": "^4.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/elfwind/dashboard.git"
+  },
+  "author": "Victor Herman",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/elfwind/dashboard#readme"
+}

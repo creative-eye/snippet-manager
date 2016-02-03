@@ -1,0 +1,57 @@
+.centered {
+    float: none;
+    margin: 0 auto;
+}
+.clear-both {
+    clear: both;
+}
+.inline {
+    display: inline;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+.break-word {
+    word-wrap: break-word;
+}
+.no-gutter {
+    padding-left: 0;
+    padding-right: 0;
+}
+.no-margin {
+    margin: 0;
+}
+.relative {
+    position: relative;
+}
+
+.row-no-gutter {
+    margin-left: 0;
+    margin-right: 0;
+}
+.reset-border {
+    border: 0 !important;
+}
+.hover-pointer {
+    cursor: pointer;
+}
+
+.one-row-ellipsis {
+    @include one-row-ellipsis;
+}
+
+.one-row-ellipsis--visible {
+    @include one-row-ellipsis;
+
+    &:hover {
+        position: relative;
+        z-index: 55000;
+    }
+}
+.warn-borders {
+    border: 1px solid $brand-warning;
+}
+.text-large {
+    font-size: $font-size-md;
+}

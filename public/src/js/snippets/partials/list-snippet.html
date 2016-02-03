@@ -1,0 +1,21 @@
+<div class="sa-one-container-full">
+    <sm-header></sm-header>
+    <h3>Snippets list</h3>
+    <div class="sa__grid">
+        <ul class="sa__grid-list">
+            <li class="sa__grid-tile col-xs-3"
+                ng-repeat="snippet in vm.data.snippets track by $index"
+                ng-click="vm.showSnippet($index)">
+                <p class="sa__grid-tile-row">
+                    {{snippet.name}}
+                </p>
+                <p class="sa__grid-tile-row">
+                    {{snippet.description}}
+                </p>
+                <p class="sa__grid-tile-row">
+                    {{snippet.code}}
+                </p>
+            </li>
+        </ul>
+    </div>
+</div>

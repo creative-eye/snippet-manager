@@ -1,0 +1,124 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/victor/.nvm/v4.2.1/bin/node',
+1 verbose cli   '/home/victor/.nvm/v4.2.1/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'angular-ui' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose install initial load of /home/victor/work/dashboard/package.json
+5 warn package.json social-media-dashboard@1.0.0 No README data
+6 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/angular/package.json
+7 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/angular-loading-bar/package.json
+8 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/angular-resource/package.json
+9 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/angular-sanitize/package.json
+10 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/babelify/package.json
+11 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/body-parser/package.json
+12 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/bootstrap-sass/package.json
+13 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/browserify/package.json
+14 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/browserify-ng-html2js/package.json
+15 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/compression/package.json
+16 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/del/package.json
+17 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/express/package.json
+18 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/gulp/package.json
+19 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/gulp-concat/package.json
+20 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/gulp-connect/package.json
+21 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/gulp-copy/package.json
+22 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/gulp-load-plugins/package.json
+23 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/gulp-ng-constant/package.json
+24 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/gulp-ng-html2js/package.json
+25 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/gulp-nodemon/package.json
+26 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/gulp-prefix/package.json
+27 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/gulp-ruby-sass/package.json
+28 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/gulp-sourcemaps/package.json
+29 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/gulp-strip-debug/package.json
+30 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/gulp-uglify/package.json
+31 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/gulp-util/package.json
+32 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/lodash/package.json
+33 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/method-override/package.json
+34 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/morgan/package.json
+35 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/transform/package.json
+36 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/vinyl-buffer/package.json
+37 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/vinyl-paths/package.json
+38 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/vinyl-source-stream/package.json
+39 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/watchify/package.json
+40 verbose installManyTop reading scoped package data from /home/victor/work/dashboard/node_modules/xtend/package.json
+41 info package.json gulp-ng-html2js@0.2.0 No license field.
+42 info package.json gulp-copy@0.0.2 No license field.
+43 verbose readDependencies loading dependencies from /home/victor/work/dashboard/package.json
+44 silly cache add args [ 'angular-ui', null ]
+45 verbose cache add spec angular-ui
+46 silly cache add parsed spec Result {
+46 silly cache add   raw: 'angular-ui',
+46 silly cache add   scope: null,
+46 silly cache add   name: 'angular-ui',
+46 silly cache add   rawSpec: '',
+46 silly cache add   spec: '*',
+46 silly cache add   type: 'range' }
+47 silly addNamed angular-ui@*
+48 verbose addNamed "*" is a valid semver range for angular-ui
+49 silly addNameRange { name: 'angular-ui', range: '*', hasData: false }
+50 silly mapToRegistry name angular-ui
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/angular-ui
+54 verbose addNameRange registry:https://registry.npmjs.org/angular-ui not in flight; fetching
+55 verbose request uri https://registry.npmjs.org/angular-ui
+56 verbose request no auth needed
+57 info attempt registry request try #1 at 3:39:34 PM
+58 verbose request id 29b6c5c6f684ce76
+59 http request GET https://registry.npmjs.org/angular-ui
+60 http 404 https://registry.npmjs.org/angular-ui
+61 verbose headers { 'content-type': 'application/json',
+61 verbose headers   'cache-control': 'max-age=0',
+61 verbose headers   'content-length': '2',
+61 verbose headers   'accept-ranges': 'bytes',
+61 verbose headers   date: 'Sat, 14 Nov 2015 13:39:35 GMT',
+61 verbose headers   via: '1.1 varnish',
+61 verbose headers   age: '0',
+61 verbose headers   connection: 'keep-alive',
+61 verbose headers   'x-served-by': 'cache-fra1242-FRA',
+61 verbose headers   'x-cache': 'MISS',
+61 verbose headers   'x-cache-hits': '0',
+61 verbose headers   'x-timer': 'S1447508374.656358,VS0,VE685' }
+62 silly get cb [ 404,
+62 silly get   { 'content-type': 'application/json',
+62 silly get     'cache-control': 'max-age=0',
+62 silly get     'content-length': '2',
+62 silly get     'accept-ranges': 'bytes',
+62 silly get     date: 'Sat, 14 Nov 2015 13:39:35 GMT',
+62 silly get     via: '1.1 varnish',
+62 silly get     age: '0',
+62 silly get     connection: 'keep-alive',
+62 silly get     'x-served-by': 'cache-fra1242-FRA',
+62 silly get     'x-cache': 'MISS',
+62 silly get     'x-cache-hits': '0',
+62 silly get     'x-timer': 'S1447508374.656358,VS0,VE685' } ]
+63 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/angular-ui
+63 verbose stack     at makeError (/home/victor/.nvm/v4.2.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+63 verbose stack     at CachingRegistryClient.<anonymous> (/home/victor/.nvm/v4.2.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+63 verbose stack     at Request._callback (/home/victor/.nvm/v4.2.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+63 verbose stack     at Request.self.callback (/home/victor/.nvm/v4.2.1/lib/node_modules/npm/node_modules/request/request.js:198:22)
+63 verbose stack     at emitTwo (events.js:87:13)
+63 verbose stack     at Request.emit (events.js:172:7)
+63 verbose stack     at Request.<anonymous> (/home/victor/.nvm/v4.2.1/lib/node_modules/npm/node_modules/request/request.js:1063:14)
+63 verbose stack     at emitOne (events.js:82:20)
+63 verbose stack     at Request.emit (events.js:169:7)
+63 verbose stack     at IncomingMessage.<anonymous> (/home/victor/.nvm/v4.2.1/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+64 verbose statusCode 404
+65 verbose pkgid angular-ui
+66 verbose cwd /home/victor/work/dashboard/public/src
+67 error Linux 3.13.0-68-generic
+68 error argv "/home/victor/.nvm/v4.2.1/bin/node" "/home/victor/.nvm/v4.2.1/bin/npm" "install" "--save" "angular-ui"
+69 error node v4.2.1
+70 error npm  v2.14.7
+71 error code E404
+72 error 404 Registry returned 404 for GET on https://registry.npmjs.org/angular-ui
+72 error 404
+72 error 404 'angular-ui' is not in the npm registry.
+72 error 404 You should bug the author to publish it (or use the name yourself!)
+72 error 404 It was specified as a dependency of 'social-media-dashboard'
+72 error 404
+72 error 404 Note that you can also install from a
+72 error 404 tarball, folder, http url, or git url.
+73 verbose exit [ 1, true ]

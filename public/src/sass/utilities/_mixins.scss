@@ -1,0 +1,23 @@
+@mixin clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+/**
+ * Add for ellipsis when text overflows
+ * Tested with one row text, do not respond for longer text behavior
+ */
+@mixin one-row-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    &:hover {
+        overflow: visible;
+        position: relative;
+        z-index: 20;
+    }
+}
