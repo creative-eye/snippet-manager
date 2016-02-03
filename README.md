@@ -7,3 +7,5 @@ Run server with mocks:
 ````sh
     gulp --nodemon
 ````
+
+Go to localhost:4000
